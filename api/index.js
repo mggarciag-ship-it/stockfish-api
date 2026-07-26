@@ -22,7 +22,7 @@ app.all('*', async (req, res) => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 fen: fen,
-                depth: 12
+                depth: 15
             })
         });
 
